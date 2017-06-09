@@ -42,12 +42,12 @@
 		.sidebar a:link, .sidebar a:visited,
 		.content a:link, .content a:visited,
 		.blog_sidebar #blog_sidebar_1 ul li a:link, .blog_sidebar #blog_sidebar_1 ul li a:visited, .blog_sidebar #blog_sidebar_2 ul li a:link, .blog_sidebar #blog_sidebar_2 ul li a:visited,
-		a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited,
 		#accordion h3:hover, #accordion h3.ui-state-active,
 		#accordion div.ui-accordion-content a:link, #accordion div.ui-accordion-content a:visited,
 		#tabs ul li.ui-tabs-active a:link, #tabs ul li.ui-tabs-active a:visited,
 		#tabs div.ui-tabs-panel a:link, #tabs div.ui-tabs-panel a:visited,
-		#tabs ul li a:hover, #tabs ul li a:active {
+		#tabs ul li a:hover, #tabs ul li a:active,
+		a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited {
 			color: <?php the_field('layout_primary_color', 'options');?>;
 		}
 		
@@ -56,7 +56,9 @@
 		.appointment,
 		.edit_button a:link, .edit_button a:visited,
 		#home_logo #home_page_nav ul li a:link, #home_logo #home_page_nav ul li a:visited,
-		.content a.button:link, .content a.button:visited {
+		.content a.button:link, .content a.button:visited,
+		header .header_cover,
+		.main.home .main_cushion.includes {
 			background: <?php the_field('layout_primary_color', 'options');?>;
 		}
 		
@@ -79,7 +81,8 @@
 	
 		/* accent color */
 		
-		.main.accentbg {
+		.main.accentbg,
+		.main.home .main_cushion .content .icon_wrapper {
 			background: <?php the_field('layout_accent_color', 'options');?>;
 		}
 	
@@ -257,7 +260,8 @@
 		
 				/* primary navigation bar color */
 				
-				#nav_bar {
+				#nav_bar,
+				header.header_mobile_home .mobile_header_bar, header.header_page_mobile .mobile_header_bar {
 					background: <?php the_field('layout_primary_color', 'options');?>;
 				}
 			
@@ -269,7 +273,8 @@
 		
 				/* accent navigation bar color */
 				
-				#nav_bar {
+				#nav_bar,
+				header.header_mobile_home .mobile_header_bar, header.header_page_mobile .mobile_header_bar {
 					background: <?php the_field('layout_accent_color', 'options');?>;
 				}
 			
@@ -281,7 +286,8 @@
 		
 				/* custom navigation bar color */
 				
-				#nav_bar {
+				#nav_bar,
+				header.header_mobile_home .mobile_header_bar, header.header_page_mobile .mobile_header_bar {
 					background: <?php the_field('layout_nav_bar_color_custom', 'options');?>;
 				}
 			
@@ -333,7 +339,8 @@
 	
 				/* dark navigation font color */
 				
-				#nav_bar ul li a:link, #nav_bar ul li a:visited {
+				#nav_bar ul li a:link, #nav_bar ul li a:visited,
+				a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited {
 					color: <?php the_field('layout_dark_font_color', 'options');?>;
 				}
 			
@@ -345,7 +352,8 @@
 		
 				/* light navigation font color */
 				
-				#nav_bar ul li a:link, #nav_bar ul li a:visited {
+				#nav_bar ul li a:link, #nav_bar ul li a:visited,
+				a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited {
 					color: <?php the_field('layout_light_font_color', 'options');?>;
 				}
 			
@@ -357,7 +365,8 @@
 		
 				/* primary navigation font color */
 				
-				#nav_bar ul li a:link, #nav_bar ul li a:visited {
+				#nav_bar ul li a:link, #nav_bar ul li a:visited,
+				a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited {
 					color: <?php the_field('layout_primary_color', 'options');?>;
 				}
 			
@@ -369,7 +378,8 @@
 		
 				/* accent navigation font color */
 				
-				#nav_bar ul li a:link, #nav_bar ul li a:visited {
+				#nav_bar ul li a:link, #nav_bar ul li a:visited,
+				a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited {
 					color: <?php the_field('layout_accent_color', 'options');?>;
 				}
 			
@@ -381,7 +391,8 @@
 		
 				/* custom navigation font color */
 				
-				#nav_bar ul li a:link, #nav_bar ul li a:visited {
+				#nav_bar ul li a:link, #nav_bar ul li a:visited,
+				a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited {
 					color: <?php the_field('layout_nav_font_color_custom', 'options');?>;
 				}
 			
