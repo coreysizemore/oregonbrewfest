@@ -54,6 +54,28 @@ header.page_default_image.volunteer {
 				padding: 44px 0;
 			}
 		}
+		
+		li.menu-item-has-children {
+			& > a:link, 
+			& > a:visited {
+				background: url('../img/light_arrow_down.png') no-repeat;
+				background-position: right center;
+				background-size: 18px 18px;
+			}
+		}
+	}
+}
+
+#nav_bar.scroll-fix {
+	ul {
+		li.menu-item-has-children {
+			& > a:link,
+			& > a:visited {
+				background: url('../img/light_arrow_down.png') no-repeat;
+				background-position: right center;
+				background-size: 18px 18px;
+			}
+		}
 	}
 }
 
@@ -103,10 +125,25 @@ header.page_default_image.volunteer {
 	.office_information_wrapper {
 		padding: 20px;
 		
-		ul.contact_info {
+		ul.office_hours {
 			
 			li {
 				
+				span,p {
+					color: #ffffff;
+				}
+			}
+		}
+		
+		p {
+			color: #ffffff;
+		}
+		
+		ul.contact_info {
+			
+			li {
+				color: #ffffff;
+
 				a:link,a:visited {
 					color: #ffffff;
 					
@@ -129,6 +166,7 @@ header.page_default_image.volunteer {
 		}
 		
 		h2 {
+			color: #ffffff;
 			font-size: 18px;
 			font-weight: 500;
 			text-align: center;
