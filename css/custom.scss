@@ -239,6 +239,51 @@ header.page_default_image.volunteer {
 	h3 {
 		border-top: 1px solid #e88945;
 	}
+	
+	div.ui-accordion-content {
+		a:link,
+		a:visited {
+			color: #e88945;
+		}
+	}
+}
+
+article.blog_preview {
+	span.edit {
+		a:link,a:visited {
+			color: #e88945;
+		}
+	}
+	
+	span.author {
+		a:link,a:visited {
+			color: #e88945;
+		}
+	}
+}
+
+article.blog_entry {
+	.meta {
+		span.category,
+		span.author {
+			a:link,a:visited {
+				color: #e88945;
+			}
+		}
+	}
+}
+
+.blog_sidebar {
+	#blog_sidebar_1,
+	#blog_sidebar_2 {
+		ul {
+			li {
+				a:link,a:visited {
+					color: #e88945;
+				}
+			}
+		}
+	}
 }
 
 
@@ -255,20 +300,20 @@ header.page_default_image.volunteer {
 		background-position: fixed;
 	}
 	
-	header.page_default_image {
+	header.header_page.page_default_image {
 		background: url('../img/header1_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image.beers,
-	header.page_default_image.contact {
+	header.header_page.page_default_image.beers,
+	header.header_page.page_default_image.contact {
 		background: url('../img/header2_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image.volunteer {
+	header.header_page.page_default_image.volunteer {
 		background: url('../img/header3_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
@@ -278,26 +323,26 @@ header.page_default_image.volunteer {
 	
 @media (min-width: 480px) and (max-width: 767px) {
 	
-	header.home_default_image {
+	header.header_page.home_default_image {
 		background: url('../img/home_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image {
+	header.header_page.page_default_image {
 		background: url('../img/header1_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image.beers,
-	header.page_default_image.contact {
+	header.header_page.page_default_image.beers,
+	header.header_page.page_default_image.contact {
 		background: url('../img/header2_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image.volunteer {
+	header.header_page.page_default_image.volunteer {
 		background: url('../img/header3_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
@@ -326,20 +371,20 @@ header.page_default_image.volunteer {
 		background-position: fixed;
 	}
 	
-	header.page_default_image {
+	header.header_page.page_default_image {
 		background: url('../img/header1_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image.beers,
-	header.page_default_image.contact {
+	header.header_page.page_default_image.beers,
+	header.header_page.page_default_image.contact {
 		background: url('../img/header2_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;
 	}
 	
-	header.page_default_image.volunteer {
+	header.header_page.page_default_image.volunteer {
 		background: url('../img/header3_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-position: fixed;

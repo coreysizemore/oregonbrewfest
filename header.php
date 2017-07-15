@@ -15,6 +15,7 @@
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta http-equiv="Expires" content="30" />
+	<meta name="google-site-verification" content="vLkV26naYAnybGevb5e_E7nouZ4ltPaJ5XsouRQR--U" />
         
 	<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 	<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->

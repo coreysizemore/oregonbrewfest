@@ -199,7 +199,7 @@
 						
 							echo '" target="_blank">';
 							
-							echo 'Volunteer';
+							echo 'Get More Information';
 						
 // 							the_sub_field('office_email', 'options');
 						
