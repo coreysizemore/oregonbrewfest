@@ -36,6 +36,23 @@ header.page_default_image.volunteer {
 	background-attachment: fixed;
 }
 
+#contact_information {
+	ul {
+		li {
+			a:link,
+			a:visited {
+				&.subscribe_button {
+					background: #222222;
+					color: #ffffff;
+					padding: 0px 10px;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+}
+
+
 #nav_bar {
 	height: 100px;
 	
@@ -157,6 +174,18 @@ header.page_default_image.volunteer {
 				}
 			}
 		}
+	}
+	
+	a:link,
+	a:visited {
+		&.subscribe_sidebar {
+			background: #222222;
+			color: #ffffff;
+			display: block;
+			text-align: center;
+			padding: 5px 0px;
+			border-radius: 5px;
+		}	
 	}
 	
 	.sidebar_logo {

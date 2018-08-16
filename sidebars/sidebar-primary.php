@@ -209,6 +209,8 @@
 							
 						echo '</ul>';
 						
+						echo '<a class="subscribe_sidebar" href="https://visitor.r20.constantcontact.com/d.jsp?llr=krkcv9iab&p=oi&m=1108996074026&sit=gkopi5rgb&f=ff8a6de7-1b4c-4579-a6ac-7443acf94cd3" target="_blank">Subscribe Here</a>';
+						
 						echo '</div>';
 							
 					endwhile;
