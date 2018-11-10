@@ -4,10 +4,9 @@
 		Call Parent Default Styles
 	*/
 
-
 	function my_theme_enqueue_styles() {
 	
-	    $parent_style = 'hoth-style';
+	    $parent_style = 'thegalaxy-style';
 	
 	    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 	    wp_enqueue_style( 'child-style',
@@ -18,9 +17,5 @@
 	    
 	}
 	add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-	
-	$role_object = get_role( 'editor' );
-	$role_object->add_cap( 'edit_theme_options' );
-	
 	
 ?>
