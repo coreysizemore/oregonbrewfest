@@ -67,7 +67,7 @@
 	
 	echo '<div class="header_page_logo_image">';
 	
-	echo '<img src="https://brew.coreysizemore.com/wp-content/uploads/2018/11/OBF-Logo.png" alt="oregon brewers festival logo" />';
+	echo '<img src="https://oregonbrewfest.com/wp-content/uploads/2018/11/OBF-Logo.png" alt="oregon brewers festival logo" />';
 	
 	echo '</div>';
 
@@ -107,7 +107,7 @@
 	
 	echo '<div class="header_page_logo_image">';
 	
-	echo '<img src="https://brew.coreysizemore.com/wp-content/uploads/2018/11/OBF-Logo.png" alt="oregon brewers festival logo" />';
+	echo '<img src="https://oregonbrewfest.com/wp-content/uploads/2018/11/OBF-Logo.png" alt="oregon brewers festival logo" />';
 	
 	echo '</div>';
 	
