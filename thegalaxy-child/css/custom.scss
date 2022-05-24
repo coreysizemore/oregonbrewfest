@@ -457,7 +457,14 @@ header {
 			
 			&.button {
 				background: $colorone;
-				color: $lightfont;
+				border-radius: 10px;
+				color: #fff;
+				font-weight: 700;
+				margin: 20px auto;
+				padding: 15px 30px;
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: .2s linear;
 			}
 		}
 	}
@@ -482,6 +489,28 @@ header {
 				font-size: 18px;
 				line-height: 32px;
 				margin-bottom: 20px;
+			}
+			
+			a:link,
+			a:visited {
+				&.button {
+					background: $colorone;
+					border-radius: 10px;
+					color: #fff;
+					font-weight: 700;
+					margin: 20px auto;
+					padding: 15px 30px;
+					text-decoration: none;
+					text-transform: uppercase;
+					transition: .2s linear;
+				}
+			}
+			
+			a:hover,
+			a:active {
+				&.button {
+					opacity: .7;
+				}
 			}
 		}
 		
@@ -810,6 +839,12 @@ header {
 				height: auto;
 				width: 100%;
 			}
+		}
+	}
+	
+	#gallery {
+		.gallery_wrapper {
+			height: auto;
 		}
 	}
 	
