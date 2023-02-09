@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	var countDownDate = new Date('July 28, 2022 12:00:00').getTime();
+	var countDownDate = new Date('July 27, 2023 12:00:00').getTime();
 
 	var x = setInterval(function() {
 

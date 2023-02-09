@@ -106,6 +106,7 @@
 	
 	echo '</div></div></div></div></div>';
 		
+/*
 	$page_icon = get_field('page_icon');
 	$page_heading = get_field('page_heading');
 	
@@ -122,5 +123,6 @@
 		echo '<span class="days"></span><span class="hours"></span><span class="minutes"></span><span class="seconds"></span></div></div></div></div></div>';
 		
 	endif;
+*/
 	
 ?>
