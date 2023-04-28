@@ -1,4 +1,14 @@
 <?php
+	
+	
+	echo '<div id="home_content_wrapper"><div class="container"><div class="row gutters"><div class="col_12"><div class="home_content">';
+		
+		$home_content = get_field('content');
+		
+		echo $home_content;
+		
+	echo '</div></div></div></div></div>';
+	
 
 	if( have_rows('call_out_items') ):
 	

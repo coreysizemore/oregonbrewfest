@@ -125,10 +125,10 @@ header {
 		}
 		
 		#home_logo {
-			margin-top: -300px;
+			margin-top: -150px;
 			
 			img {
-				height: 350px;
+				height: 250px;
 			}
 			
 			#home_page_nav {
@@ -145,6 +145,7 @@ header {
 		}
 		
 		#event_details {
+			display: none;
 			background: $colorone;
 			border-radius: 10px 10px 0px 0px;
 			bottom: 0px;
@@ -1103,10 +1104,11 @@ article.blog_entry {
 			background-attachment: scroll;
 			
 			#home_logo {
-				margin-top: -310px;
+				margin-top: -220px;
 				
 				img {
-					height: 200px;
+					height: auto;
+					width: 100%;
 				}
 			}
 			
@@ -1167,10 +1169,11 @@ article.blog_entry {
 			background-attachment: scroll;
 			
 			#home_logo {
-				margin-top: -310px;
+				margin-top: -220px;
 				
 				img {
-					height: 200px;
+					height: auto;
+					width: 100%;
 				}
 			}
 			
